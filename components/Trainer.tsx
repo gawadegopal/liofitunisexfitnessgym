@@ -16,7 +16,7 @@ const trainers = [
 
 export default function Trainer() {
     return (
-        <div className='min-h-[100vh] px-4 py-12 md:py-16 text-center flex flex-col items-center justify-center'>
+        <div className='min-h-screen px-4 py-12 md:py-16 text-center flex flex-col items-center justify-center'>
             <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-10 max-w-5xl mx-auto py-6">
                 {trainers.map((trainer, i) => (
                     <Card

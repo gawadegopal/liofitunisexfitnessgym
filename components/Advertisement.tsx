@@ -180,7 +180,7 @@ export default function Advertisement(ads: {
 
                     <Button
                         onClick={() => handleSubmit(form)}
-                        className="w-full p-4 rounded-none cursor-pointer bg-[#e63946] text-white font-medium hover:bg-[#c92f3b] translate-y-0 transition-all duration-250 hover:translate-y-[-2px]"
+                        className="w-full p-4 rounded-none cursor-pointer bg-[#e63946] text-white font-medium hover:bg-[#c92f3b] translate-y-0 transition-all duration-250 hover:-translate-y-0.5"
                     >
                         <span className="text-md md:text-lg">
                             Create Advertisement

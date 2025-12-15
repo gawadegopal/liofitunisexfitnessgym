@@ -54,7 +54,7 @@ export default function Navbar() {
         <ul className="hidden md:flex md:flex-row items-center justify-end md:gap-4 lg:gap-6 text-md sm:text-lg">
           {path === '/admin' ?
             <>
-              <li className={`transform translate-y-0 transition-all duration-250 hover:translate-y-[-2px] ${!navbar ? "hover:text-[#e63946]" : "hover:text-[#1c1c1c]"}`}>
+              <li className={`transform translate-y-0 transition-all duration-250 hover:-translate-y-0.5 ${!navbar ? "hover:text-[#e63946]" : "hover:text-[#1c1c1c]"}`}>
                 {isSignedIn && (
                   <div className="flex items-center justify-center gap-2">
                     <span className="text-sm sm:text-md hidden sm:block">
@@ -71,7 +71,7 @@ export default function Navbar() {
               {navLinks.map((navLink, i) => (
                 <li
                   key={i}
-                  className={`transform translate-y-0 transition-all duration-250 hover:translate-y-[-2px] ${!navbar ? "hover:text-[#e63946]" : "hover:text-[#1c1c1c]"}`}
+                  className={`transform translate-y-0 transition-all duration-250 hover:-translate-y-0.5 ${!navbar ? "hover:text-[#e63946]" : "hover:text-[#1c1c1c]"}`}
                 >
                   <Link href={navLink.link} className="h-12">
                     {navLink.name}
@@ -95,7 +95,7 @@ export default function Navbar() {
 
       <div className={`bg-[#e63946] text-white transition-all duration-500 absolute md:hidden w-48 h-screen top-0 bottom-0 z-20 ${show ? "left-[0]" : "left-[-100%]"}`}>
         <ul className="h-full flex flex-col items-center justify-start gap-8 pt-8 text-md sm:text-lg">
-          <li className="transform translate-y-0 transition-all duration-250 hover:translate-y-[-2px]">
+          <li className="transform translate-y-0 transition-all duration-250 hover:-translate-y-0.5">
             <div className={`flex items-center justify-center gap-2 ${oswald.className}`}>
               <Link href="/" className={`text-xl sm:text-2xl cursor-pointer`}>
                 <Image
@@ -110,7 +110,7 @@ export default function Navbar() {
 
           {path === '/admin' ?
             <>
-              <li className={`transform translate-y-0 transition-all duration-250 hover:translate-y-[-2px] ${!navbar ? "hover:text-[#e63946]" : "hover:text-[#1c1c1c]"}`}>
+              <li className={`transform translate-y-0 transition-all duration-250 hover:-translate-y-0.5 ${!navbar ? "hover:text-[#e63946]" : "hover:text-[#1c1c1c]"}`}>
                 {isSignedIn && (
                   <div className="flex items-center justify-center gap-2">
                     <span className="text-sm sm:text-md hidden sm:block">
@@ -127,7 +127,7 @@ export default function Navbar() {
               {navLinks.map((navLink, i) => (
                 <li
                   key={i}
-                  className="transform translate-y-0 transition-all duration-250 hover:translate-y-[-2px] hover:text-[#1c1c1c]"
+                  className="transform translate-y-0 transition-all duration-250 hover:-translate-y-0.5 hover:text-[#1c1c1c]"
                 >
                   <Link href={navLink.link} className="h-12">
                     {navLink.name}
