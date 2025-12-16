@@ -100,7 +100,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-6 pt-4 border-t border-white/10 flex flex-col md:flex-row items-center justify-between text-sm text-center text-gray-400">
-        <p>©2025 Lio-Fit Unisex Fitness Gym, Ratnagiri. All rights reserved.</p>
+        <p>©2026 Lio-Fit Unisex Fitness Gym, Ratnagiri. All rights reserved.</p>
         <p>
           Designed & Created by Gopal Gawade
           <br />
