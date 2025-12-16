@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://liofitgymratnagiri.netlify.app
+Host: https://www.liofitunisexfitnessgym.space/
 
 # Sitemaps
-Sitemap: https://liofitgymratnagiri.netlify.app/sitemap.xml
+Sitemap: https://www.liofitunisexfitnessgym.space/sitemap.xml
