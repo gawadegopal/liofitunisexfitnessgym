@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://liofitgymratnagiri.netlify.app',
+  siteUrl: 'https://www.liofitunisexfitnessgym.space/',
   generateRobotsTxt: true,
   changefreq: 'weekly',
   priority: 0.8,

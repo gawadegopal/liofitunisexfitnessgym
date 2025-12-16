@@ -6,4 +6,4 @@ Allow: /
 Host: https://liofitgymratnagiri.netlify.app
 
 # Sitemaps
-Sitemap: https://www.liofitunisexfitnessgym.space/sitemap.xml
+Sitemap: https://liofitgymratnagiri.netlify.app/sitemap.xml
