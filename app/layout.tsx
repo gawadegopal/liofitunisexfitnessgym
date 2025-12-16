@@ -8,6 +8,8 @@ import Scroll from "@/components/Scroll";
 import { ClerkProvider } from "@clerk/nextjs";
 import Modal from "@/components/Modal";
 
+export const revalidate = 60;
+
 const inter = Inter({
   weight: "400",
   subsets: ["latin"],
