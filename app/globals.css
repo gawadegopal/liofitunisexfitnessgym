@@ -209,8 +209,8 @@ html {
 }
 
 *::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
+    width: 4px;
+    height: 4px;
 }
 
 *::-webkit-scrollbar-track {
@@ -220,4 +220,17 @@ html {
 *::-webkit-scrollbar-thumb {
     background-color: #e63946;
     border: 1px solid transparent;
+}
+
+.news-blink-soft {
+  animation: blinkSoft 1.5s ease-in-out infinite;
+}
+
+@keyframes blinkSoft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
 }

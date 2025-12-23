@@ -71,7 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           "Saturday"
         ],
         opens: "06:00",
-        closes: "12:30"
+        closes: "02:00"
       },
       {
         "@type": "OpeningHoursSpecification",

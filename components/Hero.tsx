@@ -55,7 +55,7 @@ export default function Hero() {
           </li>
         </ul>
 
-        <div className="mt-6">
+        <div className="my-6">
           <Button
             onClick={() => router.push("/contactus")}
             className="w-full lg:w-fit p-6 rounded-none cursor-pointer bg-[#e63946] text-white font-medium hover:bg-[#c92f3b] translate-y-0 transition-all duration-250 hover:-translate-y-0.5"
@@ -64,6 +64,20 @@ export default function Hero() {
               Become a Member
             </span>
           </Button>
+
+          <div className={`w-full lg:w-fit mt-6 rounded-none bg-linear-to-r from-pink-600 to-transparent px-6 py-4 text-white animate-[slideFadeIn_0.6s_ease-out_forwards]`}>
+            <span className={`${oswald.className} inline-block rounded-none bg-[#e63946] px-2 py-0.5 mb-1 news-blink-soft`}>
+              ANNOUNCEMENT
+            </span>
+
+            <h4 className={`${oswald.className} my-2 text-xl`}>
+              SPECIAL LADIES’ GYM BATCHES AVAILABLE
+            </h4>
+
+            <p className="mt-1 text-sm opacity-95">
+              Safe • Comfortable • Hygienic
+            </p>
+          </div>
         </div>
       </div>
 
@@ -97,7 +111,7 @@ export default function Hero() {
                   </h4>
 
                   <p className="text-sm text-gray-200">
-                     Karwanchiwadi Road, near Gramin Police Station, Ratnagiri, Maharashtra 415612
+                    Karwanchiwadi Road, near Gramin Police Station, Ratnagiri, Maharashtra 415612
                   </p>
                 </div>
               </div>
@@ -117,8 +131,8 @@ export default function Hero() {
                   </h4>
 
                   <p className="text-sm text-gray-200">
-                    Morning: 6 AM - 12:30 PM
-                    <br/>
+                    Morning: 6 AM - 2 PM
+                    <br />
                     Evening: 4 PM - 10 PM
                   </p>
                 </div>

@@ -37,7 +37,7 @@ export default function ServicesPage() {
       </h1>
 
       <p className="text-gray-200 text-lg leading-relaxed">
-        At <span className="font-semibold text-white">Lio-Fit Gym</span>, we provide complete fitness solutions:
+        At <span className="font-semibold text-white">Lio-Fit Unisex Fitness Gym</span>, we provide complete fitness solutions:
       </p>
 
       <ul className="space-y-3 text-lg mb-2 text-gray-300">

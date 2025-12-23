@@ -9,7 +9,7 @@ const oswald = Oswald({
 export const metadata: Metadata = {
     title: "Contact Lio-Fit Gym – Best Gym in Ratnagiri",
     description:
-        "Contact Lio-Fit Unisex Fitness Gym in Ratnagiri. Visit us near Karwanchiwadi Road or call us for memberships. Open Monday - Saturday, Morning: 6 AM - 12:30 PM, Evening: 4 PM - 10 PM.",
+        "Contact Lio-Fit Unisex Fitness Gym in Ratnagiri. Visit us near Karwanchiwadi Road or call us for memberships. Open Monday - Saturday, Morning: 6 AM - 2 PM, Evening: 4 PM - 10 PM.",
     alternates: { canonical: "https://www.liofitunisexfitnessgym.space/contactus" },
     keywords: [
         "contact Lio-Fit Gym Ratnagiri",
@@ -56,7 +56,7 @@ export default function ContactPage() {
                 </span>,
                 <br />
 
-                Morning: 6:00 AM - 12:30 PM, Evening: 4:00 PM - 10:00 PM
+                Morning: 6:00 AM - 2:00 PM, Evening: 4:00 PM - 10:00 PM
             </p>
 
             <p className="text-gray-300 text-lg">
